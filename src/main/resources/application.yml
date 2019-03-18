@@ -1,3 +1,7 @@
 micronaut:
     application:
         name: hello-world
+    io:
+        watch:
+            paths: src/main
+            restart: true
